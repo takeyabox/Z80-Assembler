@@ -1,0 +1,20 @@
+ASxxxx Assembler V05.50  (Zilog eZ80)                                   Page 1
+Hexadecimal [24-Bits]                                 Mon Sep 29 11:42:19 2025
+
+Symbol Table
+
+    .__.$$$.       =   002710 L   |     .__.ABS.       =   000000 G
+    .__.CPU.       =   000000 L   |     .__.H$L.       =   000000 L
+  0 IOsetup            000000 R   |   0 LOOP               00002D R
+  0 START              000026 R   |   0 display            000009 R
+
+ASxxxx Assembler V05.50  (Zilog eZ80)                                   Page 2
+Hexadecimal [24-Bits]                                 Mon Sep 29 11:42:19 2025
+
+Area Table
+
+[_CSEG]
+   0 _CODE            size     4C   flags C180
+[_DSEG]
+   1 _DATA            size      0   flags C0C0
+

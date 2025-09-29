@@ -1,0 +1,10 @@
+ASxxxx Assembler V05.50  (Zilog eZ80)                                   Page 1
+Hexadecimal [24-Bits]                                 Sat Sep 27 21:23:51 2025
+
+
+
+      000000 3E 0F            [ 2]    1 LD A, 0x0F
+      000002 D3 03            [ 3]    2 OUT (03), A
+      000004 DB 00            [ 3]    3 IN A, (00)
+      000006 D3 01            [ 3]    4 OUT (01), A
+      000008 C3 04 00         [ 4]    5 JP 0x0004
