@@ -1,5 +1,8 @@
-LD A, 0x0F
-OUT (03), A
-IN A, (00)
-OUT (01), A
-JP 0x0004
+START:
+    LD A, 0x0F
+    OUT (0x03), A
+
+LOOP:
+    IN A, (0x00)
+    OUT (0x01), A
+    JP LOOP

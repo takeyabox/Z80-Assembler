@@ -11,5 +11,11 @@ B _DSEG base 0 size 0 map 0 flags 4 fsfx _DS
 S .__.ABS. Def000000
 A _CODE size B flags CD80 bank 0
 A _DATA size 0 flags CCC0 bank 1
-T 00 00 00 3E 0F D3 03 DB 00 D3 01 C3 04 00
+T 00 00 00
 R 00 00 00 00
+T 00 00 00 3E 0F D3 03
+R 00 00 00 00
+T 04 00 00
+R 00 00 00 00
+T 04 00 00 DB 00 D3 01 C3 04 00 00 00 00 00
+R 00 00 00 00 35 18 00 00

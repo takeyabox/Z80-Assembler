@@ -1,13 +1,14 @@
 ASxxxx Assembler V05.50  (Zilog eZ80)                                   Page 1
-Hexadecimal [24-Bits]                                 Sat Sep 27 21:23:51 2025
+Hexadecimal [24-Bits]                                 Wed Oct  1 18:01:03 2025
 
 Symbol Table
 
     .__.$$$.       =   002710 L   |     .__.ABS.       =   000000 G
     .__.CPU.       =   000000 L   |     .__.H$L.       =   000000 L
+  0 LOOP               000004 R   |   0 START              000000 R
 
 ASxxxx Assembler V05.50  (Zilog eZ80)                                   Page 2
-Hexadecimal [24-Bits]                                 Sat Sep 27 21:23:51 2025
+Hexadecimal [24-Bits]                                 Wed Oct  1 18:01:03 2025
 
 Area Table
 
