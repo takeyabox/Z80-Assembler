@@ -33,14 +33,13 @@ LOOP:
     LD (0x00F2), A
     INC A
     LD (0x00F3), A
-    CALL display
     INC A
-    INC B
-    LD C, A
+    CALL display
+    LD B, A
+    SUB A, 0x0F
     LD A, B
-    SUB A, 0x04
-    LD A, C
     JP NZ, LOOP
+    JP P, LOOP
     JP START
 
 ; End of program

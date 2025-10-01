@@ -1,5 +1,5 @@
 ASxxxx Assembler V05.50  (Zilog eZ80)                                   Page 1
-Hexadecimal [24-Bits]                                 Mon Sep 29 11:42:19 2025
+Hexadecimal [24-Bits]                                 Wed Oct  1 17:46:17 2025
 
 
 
@@ -38,15 +38,14 @@ Hexadecimal [24-Bits]                                 Mon Sep 29 11:42:19 2025
       000035 32 F2 00         [ 4]   33     LD (0x00F2), A
       000038 3C               [ 1]   34     INC A
       000039 32 F3 00         [ 4]   35     LD (0x00F3), A
-      00003C CD 09 00         [ 5]   36     CALL display
-      00003F 3C               [ 1]   37     INC A
-      000040 04               [ 1]   38     INC B
-      000041 4F               [ 1]   39     LD C, A
-      000042 78               [ 1]   40     LD A, B
-      000043 D6 04            [ 2]   41     SUB A, 0x04
-      000045 79               [ 1]   42     LD A, C
-      000046 C2 2D 00         [ 4]   43     JP NZ, LOOP
-      000049 C3 26 00         [ 4]   44     JP START
-                                     45 
-                                     46 ; End of program
-                                     47 
+      00003C 3C               [ 1]   36     INC A
+      00003D CD 09 00         [ 5]   37     CALL display
+      000040 47               [ 1]   38     LD B, A
+      000041 D6 0F            [ 2]   39     SUB A, 0x0F
+      000043 78               [ 1]   40     LD A, B
+      000044 C2 2D 00         [ 4]   41     JP NZ, LOOP
+      000047 F2 2D 00         [ 4]   42     JP P, LOOP
+      00004A C3 26 00         [ 4]   43     JP START
+                                     44 
+                                     45 ; End of program
+                                     46 
